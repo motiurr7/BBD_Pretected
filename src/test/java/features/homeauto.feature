@@ -1,6 +1,7 @@
 @regression
 Feature: Auto Quote Validation New
 
+  
   Scenario: Auto quote test
     Given user navigate to homepageP
     And user select auto
@@ -8,8 +9,8 @@ Feature: Auto Quote Validation New
     And click get started
     Then user will be in details
 
-@smoke
-  Scenario: Auto quote test New 2
+    @smoke
+  Scenario: Home quote test
     Given user navigate to homepageP
     And user select home
     Given user input zipcode
