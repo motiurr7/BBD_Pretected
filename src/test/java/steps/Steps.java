@@ -44,8 +44,6 @@ public class Steps {
 	}
 	
 	
-
-	
 	@Given("user input zipcode")
 	public void user_input_zipcode() {
 		element = driver.findElement(By.xpath("//form[@class='main-form']//div[@class='main-form__group main-form__group--zip']//input[@class='zip']"));
