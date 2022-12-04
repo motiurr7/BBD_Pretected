@@ -17,7 +17,7 @@ public class Steps {
 
 	WebDriver driver;
 	WebElement element;
-	
+	/*
 	@Given("user navigate to homepageP")
 	public void user_navigate_to_homepageP() {
 		WebDriverManager.chromedriver().setup();
@@ -35,15 +35,17 @@ public class Steps {
 		element.click();
 		System.out.println("This is Given");
 	}
-	
+	*/
+	/*
 	@Given("user select home")
 	public void user_select_home() {
 		element = driver.findElement(By.xpath("//img[@alt='Home Insurance']"));
 		element.click();
 		System.out.println("This is Given");
 	}
+	*/
 	
-	
+	/*
 	@Given("user input zipcode")
 	public void user_input_zipcode() {
 		element = driver.findElement(By.xpath("//form[@class='main-form']//div[@class='main-form__group main-form__group--zip']//input[@class='zip']"));
@@ -66,6 +68,6 @@ public class Steps {
 		System.out.println("Continue Pop Up");
 	}
 
-
+*/
 	
 }
